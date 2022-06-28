@@ -56,7 +56,7 @@ class serialConnection(object):
 
 def main():
 
-    serial_adaptor = serialConnection("/dev/ttyUSB2",115200)
+    serial_adaptor = serialConnection("/dev/ttyUSB0",115200)
 
     while True:
         try :
